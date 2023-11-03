@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './App.scss';
 
 /* #region Images */
@@ -19,33 +20,21 @@ const GeorgianbayArr = Georgianbay.keys().map(image => Georgianbay(image));
 const Scotland = require.context('./images/Scotland', true);
 const ScotlandArr = Scotland.keys().map(image => Scotland(image));
 
-//https://www.samdawson.dev/article/auto-flow-dense-varying-image-sizes
-// function ImageGridItem({ image }) {
-//   const style = {
-//     gridColumnEnd: `span ${getSpanEstimate(image.width)}`,
-//     gridRowEnd: `span ${getSpanEstimate(image.height)}`,
-//   }
-//   return <img style={style} src={image.url} alt={image.alt} />
-// }
-// function getSpanEstimate(size) {
-//   if (size > 250) {
-//     return 2
-//   }
-//   return 1
-// }
-
+const fullAlbum = [...AddingtonArr, ...CostaricaArr, ...GeorgianbayArr, ...ScotlandArr];
 
 function App() {
+  const [images, setImages] = useState([...fullAlbum]); 
+
   return (
     <div className="container">
       <div id='nav'>
-        <h1>Ben Langlois.</h1>
+        <h1 onClick={() => setImages([...fullAlbum])}>Ben Langlois.</h1>
         <h4>Photography</h4>
         <div id='links'>
-          <h3>GTA</h3>
-          <h3>Georgian Bay</h3>
-          <h3>Addington Highlands</h3>
-          <h3>Costa Rica</h3>
+          <h3 onClick={() => setImages([...ScotlandArr])}>Scotland</h3>
+          <h3 onClick={() => setImages([...GeorgianbayArr])}>Georgian Bay</h3>
+          <h3 onClick={() => setImages([...AddingtonArr])}>Addington Highlands</h3>
+          <h3 onClick={() => setImages([...CostaricaArr])}>Costa Rica</h3>
         </div>
         <div id='socials'>
           <a href='https://github.com/Ben-Langlois/Photography-Portfolio'><img id='github' alt='github' src={github}/></a>
@@ -55,7 +44,7 @@ function App() {
       </div>
       <div id='dashboard'>
       {
-        AddingtonArr.map((image, index) => (
+        images.map((image, index) => (
           <img key={index} src={image} alt='...'/> 
         ))
       }
