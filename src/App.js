@@ -31,10 +31,10 @@ function App() {
         <h1 onClick={() => setImages([...fullAlbum])}>Ben Langlois.</h1>
         <h4>Photography</h4>
         <div id='links'>
-          <h3 onClick={() => setImages([...ScotlandArr])}>Scotland</h3>
-          <h3 onClick={() => setImages([...GeorgianbayArr])}>Georgian Bay</h3>
-          <h3 onClick={() => setImages([...AddingtonArr])}>Addington Highlands</h3>
-          <h3 onClick={() => setImages([...CostaricaArr])}>Costa Rica</h3>
+          <h3 class='link' onClick={() => setImages([...ScotlandArr])}>Scotland</h3>
+          <h3 class='link' onClick={() => setImages([...GeorgianbayArr])}>Georgian Bay</h3>
+          <h3 class='link' onClick={() => setImages([...AddingtonArr])}>Addington Highlands</h3>
+          <h3 class='link' onClick={() => setImages([...CostaricaArr])}>Costa Rica</h3>
         </div>
         <div id='socials'>
           <a href='https://github.com/Ben-Langlois/Photography-Portfolio'><img id='github' alt='github' src={github}/></a>
