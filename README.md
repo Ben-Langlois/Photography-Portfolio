@@ -7,6 +7,5 @@ This is a React app that displays photos from trips, hikes, walks, etc.
 - Using Figma to create/plan wireframes
 - Use redux 
 - Practice building a responsive webpage 
-- Building reusable styled components to add to my component library 
 - Practice using Git branches and the other main functions of Git. Instead of using the main branch for everything
 - Writing the least amount of code possible
