@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Photography-Portfolio/static/css/main.2e5ea1bd.css",
-    "main.js": "/Photography-Portfolio/static/js/main.a1f7453f.js",
+    "main.css": "/Photography-Portfolio/static/css/main.4c9fe18d.css",
+    "main.js": "/Photography-Portfolio/static/js/main.709ff483.js",
     "static/js/787.3202ef30.chunk.js": "/Photography-Portfolio/static/js/787.3202ef30.chunk.js",
     "static/media/IMG_2567.jpg": "/Photography-Portfolio/static/media/IMG_2567.caebb6471a724a5dcaec.jpg",
     "static/media/IMG_3290.JPG": "/Photography-Portfolio/static/media/IMG_3290.7585ab1ab54003dca96a.JPG",
@@ -50,12 +50,12 @@
     "static/media/iconmonstr-github-3.svg": "/Photography-Portfolio/static/media/iconmonstr-github-3.197212f02efa31cf1fd6ce8f39191593.svg",
     "index.html": "/Photography-Portfolio/index.html",
     "static/media/iconmonstr-linkedin-3.svg": "/Photography-Portfolio/static/media/iconmonstr-linkedin-3.27a3f479ca1bbb0ceef19e395081fb94.svg",
-    "main.2e5ea1bd.css.map": "/Photography-Portfolio/static/css/main.2e5ea1bd.css.map",
-    "main.a1f7453f.js.map": "/Photography-Portfolio/static/js/main.a1f7453f.js.map",
+    "main.4c9fe18d.css.map": "/Photography-Portfolio/static/css/main.4c9fe18d.css.map",
+    "main.709ff483.js.map": "/Photography-Portfolio/static/js/main.709ff483.js.map",
     "787.3202ef30.chunk.js.map": "/Photography-Portfolio/static/js/787.3202ef30.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e5ea1bd.css",
-    "static/js/main.a1f7453f.js"
+    "static/css/main.4c9fe18d.css",
+    "static/js/main.709ff483.js"
   ]
 }
